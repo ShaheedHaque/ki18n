@@ -186,7 +186,7 @@ class RuleSet(Qt5Ruleset.RuleSet):
         })
 
         self._modulecode = rules_engine.ModuleCodeDb({
-            "KLocalizedString":
+            "klocalizedstring.h":
             {
                 "code": _klocalizedstring_add_template_code,
             },
